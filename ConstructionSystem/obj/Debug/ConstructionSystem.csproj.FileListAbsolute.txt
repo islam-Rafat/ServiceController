@@ -119,3 +119,8 @@ E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\D
 E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.CreateDepartmentLocationTBL.resources
 E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.AddColumnsInUserTBL.resources
 E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.AddAgeColumn.resources
+E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.EditEmailColumnInEmployeeTBL.resources
+E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.CreateServiceTBL.resources
+E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.CreateClientTBL.resources
+E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.CreateProjectServiceTBL.resources
+E:\ITI - Intake 2 Full Stack\Progect\ConstructionSystem\ConstructionSystem\obj\Debug\ConstructionSystem.Migrations.CreateClientProjectTBL.resources

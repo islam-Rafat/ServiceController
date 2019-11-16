@@ -6,7 +6,7 @@ using System.Web;
 
 namespace ConstructionSystem.Models.MyViewModels
 {
-    public class ClientVM:ApplicationUser
+    public class ClientVM
     {
         public string userId { get; set; }
 

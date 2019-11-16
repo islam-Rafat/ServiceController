@@ -181,7 +181,6 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -223,14 +222,38 @@
     <Compile Include="Migrations\201911140731339_AddAgeColumn.Designer.cs">
       <DependentUpon>201911140731339_AddAgeColumn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911160828419_EditEmailColumnInEmployeeTBL.cs" />
+    <Compile Include="Migrations\201911160828419_EditEmailColumnInEmployeeTBL.Designer.cs">
+      <DependentUpon>201911160828419_EditEmailColumnInEmployeeTBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911161201556_CreateServiceTBL.cs" />
+    <Compile Include="Migrations\201911161201556_CreateServiceTBL.Designer.cs">
+      <DependentUpon>201911161201556_CreateServiceTBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911161210289_CreateClientTBL.cs" />
+    <Compile Include="Migrations\201911161210289_CreateClientTBL.Designer.cs">
+      <DependentUpon>201911161210289_CreateClientTBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911161242064_CreateProjectServiceTBL.cs" />
+    <Compile Include="Migrations\201911161242064_CreateProjectServiceTBL.Designer.cs">
+      <DependentUpon>201911161242064_CreateProjectServiceTBL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911161247271_CreateClientProjectTBL.cs" />
+    <Compile Include="Migrations\201911161247271_CreateClientProjectTBL.Designer.cs">
+      <DependentUpon>201911161247271_CreateClientProjectTBL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Entities\Client.cs" />
+    <Compile Include="Models\Entities\ClientProject.cs" />
     <Compile Include="Models\Entities\Department.cs" />
     <Compile Include="Models\Entities\DepartmentLocation.cs" />
     <Compile Include="Models\Entities\DepartmentManager.cs" />
     <Compile Include="Models\Entities\Employee.cs" />
     <Compile Include="Models\Entities\EmployeeProject.cs" />
     <Compile Include="Models\Entities\Project.cs" />
+    <Compile Include="Models\Entities\ProjectService.cs" />
+    <Compile Include="Models\Entities\Service.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MyViewModels\ClientVM.cs" />
@@ -338,6 +361,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911140731339_AddAgeColumn.resx">
       <DependentUpon>201911140731339_AddAgeColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911160828419_EditEmailColumnInEmployeeTBL.resx">
+      <DependentUpon>201911160828419_EditEmailColumnInEmployeeTBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911161201556_CreateServiceTBL.resx">
+      <DependentUpon>201911161201556_CreateServiceTBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911161210289_CreateClientTBL.resx">
+      <DependentUpon>201911161210289_CreateClientTBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911161242064_CreateProjectServiceTBL.resx">
+      <DependentUpon>201911161242064_CreateProjectServiceTBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911161247271_CreateClientProjectTBL.resx">
+      <DependentUpon>201911161247271_CreateClientProjectTBL.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

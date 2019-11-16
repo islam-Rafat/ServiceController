@@ -35,6 +35,10 @@ namespace ConstructionSystem.Models
         public DbSet<Project> Projects { get; set; }
         public DbSet<EmployeeProject> EmployeeProjects { get; set; }
         public DbSet<DepartmentLocation> DepartmentLocations { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Client> Cliens { get; set; }
+        public DbSet<ProjectService> ProjectServices { get; set; }
+        public DbSet<ClientProject> ClientProjects { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

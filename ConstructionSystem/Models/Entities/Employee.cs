@@ -44,7 +44,9 @@ namespace ConstructionSystem.Models.Entities
         [Display(Name = "Hire Date")]
         public DateTime? HireDate { get; set; }
 
-        [EmailAddress(ErrorMessage = "Invalid Email Address")]
+        [Required]
+        [Display(Name = "Email")]
+        [EmailAddress(ErrorMessage = "Please Enter a Valid Email Address")]
         public string Email { get; set; }
 
         public Employee employee { get; set; }
