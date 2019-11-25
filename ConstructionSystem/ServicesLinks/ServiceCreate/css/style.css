@@ -2,23 +2,23 @@ body {
 	margin:  0;
 }
 .page-content {
-	width: 100%;
-	margin:  0 auto;
-	background-image: -moz-linear-gradient( 136deg, rgb(224,195,252) 0%, #8ec5fc 100%);
-    background-image: linear-gradient(to right,indigo,violet);
+    width: 100%;
+    margin: 0 auto;
+    background-image: -moz-linear-gradient( 136deg, rgb(224,195,252) 0%, #8ec5fc 100%);
+    background-image: linear-gradient(to right,#554a4a,burlywood);
     background-image: -ms-linear-gradient( 136deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
-	display: flex;
-	display: -webkit-flex;
-	justify-content: center;
-	-o-justify-content: center;
-	-ms-justify-content: center;
-	-moz-justify-content: center;
-	-webkit-justify-content: center;
-	align-items: center;
-	-o-align-items: center;
-	-ms-align-items: center;
-	-moz-align-items: center;
-	-webkit-align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
 }
 .form-v2-content  {
 	background: #fff;
